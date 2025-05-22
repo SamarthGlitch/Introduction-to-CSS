@@ -1,0 +1,12 @@
+h2{
+    font-family: sans-serif; color:blueviolet;
+}
+body{
+     text-align: center;
+}
+#head4{
+    font-style: oblique; font-variant: small-caps; color:rgb(255, 0, 221)
+}
+*{
+    font-style: oblique; font-variant: small-caps; background-color: rgb(61, 61, 61); color: forestgreen; text-decoration: dotted;
+}
