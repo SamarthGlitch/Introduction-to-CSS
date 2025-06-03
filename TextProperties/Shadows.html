@@ -2,23 +2,19 @@
 <html>
 <head>
     <style>
-        #textshadow{
+        #shadow{
             font-family: monospace;
-            text-shadow: 2px 2px 1px orangered;
+            box-shadow: 2px 2px 1px orangered;
             font-size: 500%;
         }
         body{
             text-align: center;
             background-repeat: no-repeat;
-        }
-        #indent{
-            text-indent: 500px;
-        }
-        #boxshadow{
-            box-shadow: 4px 4px 2px cyan;
+            height:100vh;
+            background-attachment: fixed;
         }
         div{
-            background-image:linear-gradient(to top right,red, orange, yellow);
+            background-image:linear-gradient(to top right,rgb(25, 0, 255), rgb(0, 183, 255), rgb(255, 0, 221));
         }
     </style>
     <meta charset="UTF-8" />
@@ -26,9 +22,7 @@
 </head>
 <body>
     <div>
-    <h1 id="textshadow">This is a text shadow</h1>
-    <h1 id="indent">This is a text indent of 500px</h2>
-    <h1 id="boxshadow">This is a box shadow</h1>
+    <h1 id="shadow">this is a shadow</h1>
     </div>
 </body>
 </html>

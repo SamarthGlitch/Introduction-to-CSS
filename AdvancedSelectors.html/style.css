@@ -1,0 +1,32 @@
+html{
+    font-family: monospace;
+    background-image: url("https://media.nature.com/lw767/magazine-assets/d41586-024-02277-w/d41586-024-02277-w_27325526.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+a:hover{
+    color:rgb(0, 162, 255);
+}
+ul > li {
+    font-weight: bold;
+}
+h1 + p:hover{
+    color:blue
+}
+ul li:hover{
+    color:aqua
+}
+p:not(:first-of-type){
+    text-decoration: dotted;
+}
+ul li::before{
+    content: "🚀"
+}
+a:after{
+    content: "🌌"
+}
+p::first-letter{
+    font-size:200%;
+    color: rgb(255, 145, 0);
+}
