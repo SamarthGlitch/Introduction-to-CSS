@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>float</title>
+    <style>
+        html{
+            font-family: monospace;
+            background-color: rgb(88, 88, 88);
+        }
+        h2{
+            font-size: 250%;
+            background: radial-gradient(circle, dodgerblue, yellow );
+            background-clip: text;
+            color: transparent;
+            animation: anitext 8s linear infinite;
+            background-size: 200% 200%;
+        }
+        p{
+            color:white;
+            font-size: 150%;
+        }
+        img#waveright{
+            float:right
+        }
+        img#waveleft{
+            float:left
+        }
+    </style>
+</head>
+<body>
+    <h2> Float Left and Float Right</h2>
+    <p>In this example the image will float to the right of the paragraph,
+        and the text in the paragraph will wrap around the image.
+    </p>
+    <p>
+        <img id="waveright" src="Wave_Mac.png" alt="Wave"
+        style="width:100px; height:100px;">
+        <img id="waveleft" src="Wave_Mac.png" alt="Wave"
+        style="width:100px; height:100px;">
+        This is dummy content used to understand the float property
+    </p>
+</body>
+</html>
