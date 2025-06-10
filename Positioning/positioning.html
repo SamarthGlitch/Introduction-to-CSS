@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Positional Properties</title>
+    <style>
+        body{
+            height: 1081px;
+        }
+        div{
+            border: 3px solid #73AD21
+        }
+        .Static{
+            position: static;
+            border: 3px solid #73AD21;
+        }
+        .Absolute{
+            position: absolute;
+            left:50px;
+            border: 3px solid #73AD21;
+        }
+        .Fixed{
+            position: fixed;
+            top:0px;
+            right:40px;
+            width:300px;
+            border: 3px solid blue;
+        }
+        .Sticky{
+            position: sticky;
+            top:0px;
+            right:5px;
+            border: 3px solid #73AD21;
+        }
+        .Relative{
+            position: relative;
+            left: 100px;
+            top: 70px;
+            border: 3px solid #73AD21;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>POSITIONING</h2>
+<div>div with no position property</div>
+<div class="Static">Div with static position</div>
+<div class="Absolute">Div with absolute Position</div>
+<div class="Relative">Div with Relative position</div>
+<div class="Sticky">Div with Sticky Property</div>
+<div class="Fixed">Div with fixed position</div>
+</body>
+</html>
